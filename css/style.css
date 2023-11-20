@@ -1,0 +1,28 @@
+html {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.domain{
+    text-align: center;
+    color: red;
+    
+}
+.container-1 img{
+    border-radius: 100px;
+    height: 400px;
+    width: 500px;
+}
+
+.flex-container img{
+    height: 200px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 1px;
+    object-fit: fill;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
